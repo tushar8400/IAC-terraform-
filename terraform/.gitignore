@@ -1,0 +1,16 @@
+# Ignore the local .terraform working directory (contains binaries)
+.terraform/
+
+# Ignore all state and backup files regardless of naming variants
+*.tfstate
+*.tfstate.*
+
+# Exclude sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Exclude SSH Private Keys
+*.pem
+
+# (Optional) Uncomment the line below if you choose to ignore the dependency lock file
+# .terraform.lock.hcl
